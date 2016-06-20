@@ -201,6 +201,9 @@ a {
   a:hover {
     color: #492EA2; }
 
+h1, h2, h3, h4, h5, h6 {
+  color: #391782; }
+
 p, ul {
   line-height: 126%; }
 
@@ -214,13 +217,13 @@ p {
 #zen-preamble {
   transform: rotate3d(0, 0, 1, 0);
   padding: 2em;
-  box-shadow: 0 0 0 rgba(74, 78, 81, 0.99);
+  box-shadow: 0 0 0 rgba(44, 36, 48, 0.1);
   background-color: #fdffd1;
   font-size: 84%;
   transition: all ease .3s;
   font-style: italic; }
   #zen-preamble:hover {
-    box-shadow: -14px 36px 6px rgba(74, 78, 81, 0.8);
+    box-shadow: -14px 36px 6px rgba(44, 36, 48, 0.2);
     transform: rotate3d(0, 0, 1, -15deg) scale3d(1.2, 1.2, 1.2); }
 
 footer {
@@ -235,9 +238,11 @@ footer {
     font-size: 70%;
     border-radius: 50%;
     line-height: 4.3;
-    margin: 0 20px; }
+    margin: 0 20px;
+    transition: all ease .3s; }
     footer a:hover {
       color: #FFF;
-      background-color: #251753; }
+      background-color: #251753;
+      transform: rotate3d(0, 0, 1, -90deg) scale3d(1.7, 1.7, 1.7); }
 
 /*# sourceMappingURL=style.css.map */

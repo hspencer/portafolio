@@ -3,20 +3,21 @@
 #zen-preamble{
     transform: rotate3d(0,0,1, 0);
     padding: 2em;
-    box-shadow: 0 0 0 transparentize($color-shadow, 0.01);
+    box-shadow: 0 0 0 transparentize($color-shadow, 0.9);
     background-color: darken($color-background, 5%);
     font-size: 84%;
     transition: all ease .3s;
     font-style: italic;
 
     &:hover{
-        box-shadow: -14px 36px 6px transparentize($color-shadow, 0.2);
+        box-shadow: -14px 36px 6px transparentize($color-shadow, 0.8);
         transform: rotate3d(0,0,1, -15deg) scale3d(1.2, 1.2, 1.2);
     }
 }
 
 footer{
     text-align: center;
+    
     a{
         display: inline-block;
         width: 90px;
@@ -28,9 +29,11 @@ footer{
         border-radius: 50%;
         line-height: 4.3;
         margin: 0 20px;
+        transition: all ease .3s;
         &:hover{
             color: #FFF;
             background-color: darken($color-2, 20%);
+             transform: rotate3d(0,0,1, -90deg) scale3d(1.7, 1.7, 1.7);
         }
     }
 }
