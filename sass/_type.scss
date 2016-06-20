@@ -1,0 +1,26 @@
+
+body{
+	font: 180% $font-main;
+	width: $body-width;
+	margin: 1em auto;
+	background-color: $color-background;
+}
+
+a{
+	color: $color-1;
+	text-decoration: none;
+	&:hover{
+		color: $color-2;
+	}
+}
+
+p, ul{
+	line-height: 126%;
+}
+
+p{
+	text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+}

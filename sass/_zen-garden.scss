@@ -1,0 +1,36 @@
+/* zen */
+
+#zen-preamble{
+    transform: rotate3d(0,0,1, 0);
+    padding: 2em;
+    box-shadow: 0 0 0 transparentize($color-shadow, 0.01);
+    background-color: darken($color-background, 5%);
+    font-size: 84%;
+    transition: all ease .3s;
+    font-style: italic;
+
+    &:hover{
+        box-shadow: -14px 36px 6px transparentize($color-shadow, 0.2);
+        transform: rotate3d(0,0,1, -15deg) scale3d(1.2, 1.2, 1.2);
+    }
+}
+
+footer{
+    text-align: center;
+    a{
+        display: inline-block;
+        width: 90px;
+        height: 90px;
+        text-align: center;
+        background-color: lighten($color-2, 30%);
+        color: #FFF;
+        font-size: 70%;
+        border-radius: 50%;
+        line-height: 4.3;
+        margin: 0 20px;
+        &:hover{
+            color: #FFF;
+            background-color: darken($color-2, 20%);
+        }
+    }
+}
